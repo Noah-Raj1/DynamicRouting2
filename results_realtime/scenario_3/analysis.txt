@@ -1,0 +1,14 @@
+Scenario 3 - Real-Time Failure Adaptation
+Grid Size: 3x3
+Node Failure Probability: 0.2
+Link Failure Probability: 0.1
+
+Step-by-Step Breakdown:
+Step 1:
+- Failed Nodes: [(0, 2), (1, 0), (1, 1), (2, 0)]
+- Failed Links: []
+- No available path.
+
+Final Outcome:
+- Total Steps: 1
+- No path found.

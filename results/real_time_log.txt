@@ -1,0 +1,111 @@
+Scenario 1: Starting simulation.
+Step 1: Simulating failures and re-routing.
+Failed nodes: []
+Failed links: [((0, 1), (1, 1))]
+Path found: [(0, 0), (1, 0), (1, 1), (1, 2), (2, 2)]
+Step 2: Simulating failures and re-routing.
+Failed nodes: [(2, 2)]
+Failed links: [((1, 0), (1, 1)), ((1, 1), (2, 1))]
+No path found.
+Step 3: Simulating failures and re-routing.
+Failed nodes: []
+Failed links: []
+No path found.
+Step 4: Simulating failures and re-routing.
+Failed nodes: [(2, 0)]
+Failed links: []
+No path found.
+Step 5: Simulating failures and re-routing.
+Failed nodes: [(1, 1)]
+Failed links: []
+No path found.
+Scenario 1: Simulation complete with success rate: 20.0%
+Scenario 2: Starting simulation.
+Step 1: Simulating failures and re-routing.
+Failed nodes: [(0, 2)]
+Failed links: [((1, 1), (2, 1))]
+Path found: [(0, 0), (1, 0), (1, 1), (1, 2), (2, 2)]
+Step 2: Simulating failures and re-routing.
+Failed nodes: [(0, 0)]
+Failed links: []
+No path found.
+Step 3: Simulating failures and re-routing.
+Failed nodes: []
+Failed links: [((1, 0), (1, 1))]
+No path found.
+Step 4: Simulating failures and re-routing.
+Failed nodes: []
+Failed links: []
+No path found.
+Step 5: Simulating failures and re-routing.
+Failed nodes: []
+Failed links: []
+No path found.
+Scenario 2: Simulation complete with success rate: 20.0%
+Scenario 3: Starting simulation.
+Step 1: Simulating failures and re-routing.
+Failed nodes: [(1, 2)]
+Failed links: []
+Path found: [(0, 0), (1, 0), (1, 1), (2, 1), (2, 2)]
+Step 2: Simulating failures and re-routing.
+Failed nodes: []
+Failed links: [((0, 1), (1, 1))]
+Path found: [(0, 0), (1, 0), (1, 1), (2, 1), (2, 2)]
+Step 3: Simulating failures and re-routing.
+Failed nodes: [(0, 0)]
+Failed links: []
+No path found.
+Step 4: Simulating failures and re-routing.
+Failed nodes: [(2, 2)]
+Failed links: []
+No path found.
+Step 5: Simulating failures and re-routing.
+Failed nodes: [(2, 1)]
+Failed links: []
+No path found.
+Scenario 3: Simulation complete with success rate: 40.0%
+Scenario 4: Starting simulation.
+Step 1: Simulating failures and re-routing.
+Failed nodes: []
+Failed links: [((0, 0), (1, 0)), ((1, 0), (2, 0)), ((1, 0), (1, 1))]
+Path found: [(0, 0), (0, 1), (0, 2), (1, 2), (2, 2)]
+Step 2: Simulating failures and re-routing.
+Failed nodes: [(0, 2)]
+Failed links: []
+Path found: [(0, 0), (0, 1), (1, 1), (1, 2), (2, 2)]
+Step 3: Simulating failures and re-routing.
+Failed nodes: []
+Failed links: []
+Path found: [(0, 0), (0, 1), (1, 1), (1, 2), (2, 2)]
+Step 4: Simulating failures and re-routing.
+Failed nodes: [(2, 0)]
+Failed links: [((1, 1), (2, 1))]
+Path found: [(0, 0), (0, 1), (1, 1), (1, 2), (2, 2)]
+Step 5: Simulating failures and re-routing.
+Failed nodes: []
+Failed links: [((1, 2), (2, 2))]
+No path found.
+Scenario 4: Simulation complete with success rate: 80.0%
+Scenario 5: Starting simulation.
+Step 1: Simulating failures and re-routing.
+Failed nodes: [(2, 1)]
+Failed links: [((0, 1), (0, 2)), ((1, 1), (1, 2))]
+No path found.
+Step 2: Simulating failures and re-routing.
+Failed nodes: []
+Failed links: [((0, 0), (0, 1)), ((0, 1), (1, 1))]
+No path found.
+Step 3: Simulating failures and re-routing.
+Failed nodes: [(1, 1), (2, 0)]
+Failed links: []
+No path found.
+Step 4: Simulating failures and re-routing.
+Failed nodes: [(2, 2)]
+Failed links: []
+No path found.
+Step 5: Simulating failures and re-routing.
+Failed nodes: []
+Failed links: []
+No path found.
+Scenario 5: Simulation complete with success rate: 0.0%
+Analysis complete. Results saved in 'results' folder.
